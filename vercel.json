@@ -6,9 +6,9 @@
           "src": "/(.*)",
           "dest": "/",
           "headers": {
-              "Access-Control-Allow-Origin": "*",  // Allows access from any origin
-              "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",  // Adjust to the methods your API supports
-              "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept, Origin, Authorization"  // Specifies the headers that are allowed
+              "Access-Control-Allow-Origin": "*", 
+              "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS", 
+              "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept, Origin, Authorization" 
           }
       }
   ]
